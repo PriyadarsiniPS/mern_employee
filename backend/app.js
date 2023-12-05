@@ -9,7 +9,7 @@ const adminRouter=require('./routes/adminRoute');
 app.use('/admin',adminRouter);
 const userRouter=require('./routes/userRoute');
 app.use('/user',userRouter)
-mongoose.connect('mongodb+srv://priyapremlal2015:<password>@cluster0.dsakey1.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://priyapremlal2015:priyaprem2015@cluster0.dsakey1.mongodb.net/?retryWrites=true&w=majority')
 .then(() => {
     console.log("Connected to DB");
   })
